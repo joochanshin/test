@@ -50,7 +50,7 @@ class Cubie{
         // fill(this.highlight? 0 : 255);
         noFill();
         stroke(0);
-        strokeWeight(1);
+        strokeWeight(5);
         push();
         let idx = 0;
         let mat4 = this.m.mat4;

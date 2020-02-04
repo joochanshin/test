@@ -262,10 +262,17 @@ function turnX(idx, dir){
     }
 }
 
-function conventionalAlg(){
+function conventionalSolve(){
     //Write algorithm for the conventional solve
 }
 
+function algorithmicSolve(){
+    //Write algorithm for the algorthimic solve
+}
+
+function optimalSolve(){
+    //Write algorithm for the optimal solve
+}
 
 const CUBES = [];
 const ALLMOVES = [
@@ -300,6 +307,7 @@ function setup() {
     }
     this.sequence = [];
     let reverseSequence = []; //Create algorithm to solve
+
     for (let i = 0; i <MOVES; i++) {
         let move = ALLMOVES[randomInt(ALLMOVES.length)];
         this.sequence.push(move);

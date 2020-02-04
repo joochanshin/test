@@ -262,6 +262,10 @@ function turnX(idx, dir){
     }
 }
 
+function conventionalAlg(){
+    //Write algorithm for the conventional solve
+}
+
 
 const CUBES = [];
 const ALLMOVES = [

@@ -295,8 +295,9 @@ function setup() {
 
     text = createDiv("<h2>Press space key to start!</h2>")
     text.id("text");
+    document.getElementById("text").setAttribute("style", "position: absolute;");
 
-    createCanvas(500, 500, WEBGL);
+    createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 
     for(var x=-1; x<2; x++){
         for(var y=-1; y<2; y++){

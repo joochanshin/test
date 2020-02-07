@@ -306,6 +306,7 @@ function setup() {
             }
         }
     }
+
     this.sequence = [];
     let reverseSequence = []; //Create algorithm to solve
 

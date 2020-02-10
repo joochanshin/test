@@ -264,6 +264,8 @@ function turnX(idx, dir){
 
 function conventionalSolve(){
     //Write algorithm for the conventional solve
+
+    //Some stuff
 }
 
 function algorithmicSolve(){

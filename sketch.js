@@ -264,7 +264,7 @@ function turnX(idx, dir){
 
 function conventionalSolve(){
     //Write algorithm for the conventional solve
-
+    console.log(this.faces[0]);
     //Some stuff
 }
 
@@ -294,7 +294,7 @@ const ALLMOVES = [
 let counter = 0;
 let text;
 function setup() {
-
+    conventionalSolve();
     text = createDiv("<h2>Press space key to start!</h2>")
     text.id("text");
     document.getElementById("text").setAttribute("style", "position: absolute;");
